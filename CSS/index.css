@@ -1,0 +1,312 @@
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1800&q=80'); */
+    /* background: -webkit-linear-gradient(to right, #000000, #434343);  */
+    /* background: linear-gradient(to right, #000000, #434343); */
+    background: #f0f0f0;
+    
+   
+}
+
+
+
+div {
+    display: block;
+}
+
+a:link, a:visited {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+hr {
+    width: 60%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0.5px .5px 1px rgba(0, 0, 0);
+
+}
+
+/* Loader Styles */
+
+
+/* Navbar Styles */
+
+.navbar {
+    background:  rgba(139, 140, 141);
+    /* position: fixed; */
+    font-weight: 700;
+    border-bottom: 2px solid #fff;
+    
+}
+
+.nav-link:hover {
+    font-size: 1.2rem;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+
+/* Header Styles */
+
+header {
+    /* margin-top: 100px; */
+    padding-top: 100px;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url('https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header-text {
+    position: relative;
+    top: 30%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+.connect-icons {
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px auto;
+}
+
+
+.connect-icons a {
+    padding: 0 40px;
+}
+
+.connect-icons i:hover {
+    color: rgb(86, 119, 230);
+}
+
+/* Projects Styles */
+
+
+.projects-container {
+    padding-top: 40px
+}
+
+.project-header {
+    margin: 40px auto;
+    color: #000000;
+}
+
+.card-img-top {
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover .card-img-top {
+    height: 100%;
+    width: 100%;
+    filter: blur(2px) brightness(80%);
+    transition: all 0.3s ease-out;
+}
+
+.card-img-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+}
+
+.card:hover .card-img-caption {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    color: #000000;
+    border: none;
+    background: #fff;
+    box-shadow: .75rem 1.25rem 1.5rem rgba(0, 0, 0, .8);
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.project-icons {
+    font-size: 2.5rem;
+}
+
+.project-icons i:hover {
+    color: rgb(86, 119, 230);
+}
+
+#p-1 {
+    float: left;
+}
+
+#p-2 {
+    float: right;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h5 {
+    padding: 0;
+    /* margin: 0 auto -10px auto; */
+    font-weight: 600;
+}
+
+
+/* Skills Styles */
+
+#skills {
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.skills {
+    display: block;
+    padding: 40px 20px 40px 20px;
+}
+
+.skill-header {
+    padding: 20px 0;
+}
+
+.skill-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: auto;
+    
+}
+
+.skill-buttons-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: auto;
+}
+
+.skill-buttons-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: auto;
+}
+
+@media only screen and (max-width: 767px) {   
+    .skill-buttons-4 {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: auto;
+    }
+}
+.skill {
+    width: 100%;
+    margin: 5px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.skill:hover {
+    background:  rgba(139, 140, 141);
+}
+
+.mongodb-icon {
+    transform: rotate(35deg);
+}
+
+.btn i {
+    font-size: 1.25rem;
+    padding-left: 5px;
+}
+
+a i:hover {
+    color: #000000;
+}
+
+/* Reasons To Employ */
+.reasons-to-employ {
+    color: #000000;
+    margin: 3rem auto 2rem auto;
+}
+  
+.reasons-container {
+    margin: 2rem 0.5rem;
+
+}
+  
+.reasons-to-employ i {
+    color: red;
+    margin: .3em;
+
+}
+
+@media (min-width: 768px)
+{.reasons-to-employ-block {
+    display: flex;
+}
+
+.reasons-container {
+    flex: 1 33%;
+}
+
+/* Footer */
+
+.footer {
+    background:  rgba(139, 140, 141);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(255,255,255,0.6);
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #fff;
+    opacity: 0.3;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+    color: #000000;
+}
+  
+
+
+  
