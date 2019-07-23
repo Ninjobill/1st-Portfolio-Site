@@ -272,6 +272,7 @@ a i:hover {
 {.reasons-to-employ-block {
     display: flex;
 }
+}
 
 .reasons-container {
     flex: 1 33%;
@@ -306,7 +307,3 @@ a i:hover {
     opacity: 1;
     color: #000000;
 }
-  
-
-
-  
