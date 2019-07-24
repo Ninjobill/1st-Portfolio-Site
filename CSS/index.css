@@ -49,11 +49,24 @@ hr {
     /* position: fixed; */
     font-weight: 700;
     border-bottom: 2px solid #fff;
-    
+    padding: 0 4vw;
+    margin: 0 auto;
+}
+
+.collapse {
+    height: 100%;
+    padding: 0;
+}
+
+.nav-link {
+    margin: 0 auto;
+    height: 100%;
+    padding: 15px 0;
 }
 
 .nav-link:hover {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
+    background: rgba(0,0,0,.2);
 }
 
 #navbarNav {
@@ -86,9 +99,11 @@ h1 {
     font-weight: 800;
 }
 
+
+
 @media only screen and (max-width: 767px) {
-    .name {
-        font-size: 2rem;
+    .name h1{
+        font-size: 10vw;
     }
 }
 
@@ -109,6 +124,10 @@ h1 {
 
 /* Projects Styles */
 
+#projects {
+    position: relative;
+    top: 65%;
+}
 
 .projects-container {
     padding-top: 40px
@@ -158,6 +177,7 @@ h1 {
     margin: 0 auto;
     height: 100%;
     width: 100%;
+
 }
 
 
@@ -172,10 +192,12 @@ h1 {
 
 #p-1 {
     float: left;
+    padding-left: 20px;
 }
 
 #p-2 {
     float: right;
+    padding-right: 20px;
 }
 
 h2 {
@@ -268,7 +290,7 @@ a i:hover {
 .reasons-to-employ {
     color: #000000;
     margin: 3rem auto 2rem auto;
-    padding-bottom: 20px;
+    padding: 40px 0 20px 0;
 }
   
 .reasons-container {
@@ -294,9 +316,19 @@ a i:hover {
 
 /* About Me */
 
+
+
 .about-me {
     background:  rgba(139, 140, 141);
     padding: 40px;
+}
+
+#resume {
+    text-decoration: underline;
+}
+
+#resume:hover {
+    color: rgb(86, 119, 230);
 }
 
 /* Footer */
