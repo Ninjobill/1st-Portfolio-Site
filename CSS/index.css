@@ -78,11 +78,18 @@ header {
     position: relative;
     top: 30%;
     margin: 0 auto;
+    
 }
 
 h1 {
     font-size: 5rem;
     font-weight: 800;
+}
+
+@media only screen and (max-width: 767px) {
+    .name {
+        font-size: 2rem;
+    }
 }
 
 .connect-icons {
@@ -192,13 +199,19 @@ h5 {
     background-attachment: fixed;
 }
 
+.skills-view {
+    /* height: 90vh; */
+}
+
 .skills {
     display: block;
-    padding: 40px 20px 40px 20px;
+    padding: 60px 20px 100px 20px;
+    margin-top: 40px;
+    
 }
 
 .skill-header {
-    padding: 20px 0;
+    padding: 30px 0 20px 0;
 }
 
 .skill-buttons {
@@ -255,6 +268,7 @@ a i:hover {
 .reasons-to-employ {
     color: #000000;
     margin: 3rem auto 2rem auto;
+    padding-bottom: 20px;
 }
   
 .reasons-container {
@@ -268,14 +282,21 @@ a i:hover {
 
 }
 
-@media (min-width: 768px)
-{.reasons-to-employ-block {
-    display: flex;
-}
+@media (min-width: 768px) {
+    .reasons-to-employ-block {
+        display: flex;
+    }
 }
 
 .reasons-container {
     flex: 1 33%;
+}
+
+/* About Me */
+
+.about-me {
+    background:  rgba(139, 140, 141);
+    padding: 40px;
 }
 
 /* Footer */
@@ -299,7 +320,7 @@ a i:hover {
     color: #fff;
     opacity: 0.3;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 2rem;
     padding: 0px 10px;
 }
 
