@@ -30,6 +30,11 @@ hr {
     box-shadow: 0.5px .5px 1px rgba(0, 0, 0);
 }
 
+p {
+    font-weight: 600;
+    font-family: 
+}
+
 /* Loader Styles */
 
 
@@ -108,7 +113,7 @@ header {
     /* margin-top: 100px; */
     padding-top: 100px;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url('https://images.pexels.com/photos/34088/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url('../IMGS/Header.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,6 +196,7 @@ h1 {
     opacity: 0;
     transition: all 0.5s;
     backface-visibility: hidden;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -217,7 +223,7 @@ h1 {
     color: #000000;
     border: none;
     background: #fff;
-    box-shadow: .75rem 1.25rem 1.5rem rgba(0, 0, 0, .8);
+    box-shadow: .75rem 1rem 1.5rem rgba(0, 0, 0, .8);
     margin: 0 auto;
     height: 100%;
     width: 100%;
@@ -255,11 +261,16 @@ h5 {
     font-weight: 600;
 }
 
+h4 {
+    padding: 0;
+    /* margin: 0 auto -10px auto; */
+    font-weight: 600;
+}
 
 /* Skills Styles */
 
 #skills {
-    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('https://images.pexels.com/photos/248515/pexels-photo-248515.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('../IMGS/Skills.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
