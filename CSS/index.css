@@ -73,6 +73,43 @@ hr {
     justify-content: flex-end;
 }
 
+.delay-1 {
+    animation-delay: 250ms;
+}
+
+.delay-2 {
+    animation-delay: 500ms;
+}
+
+.delay-3 {
+    animation-delay: 750ms;
+}
+
+.delay-4 {
+    animation-delay: 1000ms;
+}
+
+.delayed-fade-in-left {
+    animation-name: delayed-fade-in-left;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    opacity: 0;
+}
+
+@keyframes delayed-fade-in-left {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    50%{
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
 
 /* Header Styles */
 
@@ -202,6 +239,7 @@ h1 {
 
 h2 {
     font-weight: 600;
+    font-size: 3rem;
 }
 
 h5 {
@@ -219,10 +257,6 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.skills-view {
-    /* height: 90vh; */
 }
 
 .skills {
