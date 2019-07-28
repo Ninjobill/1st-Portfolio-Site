@@ -240,12 +240,12 @@ h1 {
     color: rgb(86, 119, 230);
 }
 
-#p-1 {
+.p-1 {
     float: left;
     padding-left: 20px;
 }
 
-#p-2 {
+.p-2 {
     float: right;
     padding-right: 20px;
 }
