@@ -6,6 +6,7 @@
 /parcel
 /test
 /webpack-project
+/node_modules
 hex.css
 html boiler.html
 html test.html
