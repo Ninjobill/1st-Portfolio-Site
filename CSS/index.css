@@ -113,11 +113,20 @@ header {
     /* margin-top: 100px; */
     padding-top: 100px;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)), url('../IMGS/Header.jpg') 0 0;
     background-position: 50%;
     background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)), url('../IMGS/Header.jpg') 0 0;
     background-size: cover;
+    --webkit-background-size: cover;
+    --moz-background-size: cover;
+    --o-background-size: cover;
     background-attachment: fixed;
+}   
+
+@media screen and (max-width: 1024px){
+    header {
+        background-attachment: scroll;
+    }
 }
 
 .header-text {
@@ -275,11 +284,20 @@ h4 {
 /* Skills Styles */
 
 #skills {
-    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('../IMGS/Skills.png');
     background-position: 50%;
     background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('../IMGS/Skills.png');
+    --webkit-background-size: cover;
+    --moz-background-size: cover;
+    --o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+}
+
+@media screen and (max-width: 1024px){
+    #skills {
+        background-attachment: scroll;
+    }
 }
 
 .skills {
