@@ -1,0 +1,4 @@
+Create New projects,
+
+maybe create seperate pages for those projects displaying them and their features,
+snips of the header of the site, some cool feature, then small snips of the site in all different sizes to show it's responsive.

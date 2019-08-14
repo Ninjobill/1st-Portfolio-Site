@@ -70,24 +70,24 @@ p {
 }
 
 .delay-1 {
-    animation-delay: 250ms;
+    animation-delay: 100ms;
 }
 
 .delay-2 {
-    animation-delay: 500ms;
+    animation-delay: 250ms;
 }
 
 .delay-3 {
-    animation-delay: 750ms;
+    animation-delay: 400ms;
 }
 
 .delay-4 {
-    animation-delay: 1000ms;
+    animation-delay: 550ms;
 }
 
 .delayed-fade-in-left {
     animation-name: delayed-fade-in-left;
-    animation-duration: 2s;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
     opacity: 0;
@@ -113,7 +113,7 @@ header {
     /* margin-top: 100px; */
     padding-top: 100px;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)),url('../IMGS/Header.jpg');
+    background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.4)), url('../IMGS/Header.jpg') 0 0;
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -138,6 +138,10 @@ h1 {
     .name h1{
         font-size: 10vw;
     }
+
+    .connect-icons a{
+        padding: 0 20px;
+    }
 }
 
 .connect-icons {
@@ -147,10 +151,11 @@ h1 {
 }
 
 
-.connect-icons a {
-    padding: 0 40px;
+@media only screen and (min-width: 768px) {
+    .connect-icons a {
+        padding: 0 40px;
+    }
 }
-
 .connect-icons i:hover {
     color: rgb(86, 119, 230);
 }
