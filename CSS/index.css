@@ -286,11 +286,11 @@ h4 {
 #skills {
     /* background-position: 50%; */
     /* background-repeat: no-repeat; */
-    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)),url('../IMGS/Skills.png') no-repeat center center fixed;
+    background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,.7)), url('../IMGS/Skills.png') no-repeat center center fixed;
+    background-size: cover;
     --webkit-background-size: cover;
     --moz-background-size: cover;
     --o-background-size: cover;
-    background-size: cover;
     /* background-attachment: fixed; */
 }
 
